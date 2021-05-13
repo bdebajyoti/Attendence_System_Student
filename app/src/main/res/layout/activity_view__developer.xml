@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".View_Developer">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/selfphoto"
+        android:layout_gravity="center"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        android:layout_margin="3dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Developer-Programmar:-DEBAJYOTI BHATTACHARJEE (MCA)\nComputer Instructor, Cachar College, Silchar-1"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#eee"
+        />
+    <Button
+        android:id="@+id/ExitWindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="75dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:text="CLOSE WINDOW"
+        android:textColor="#ffffff" />
+</LinearLayout>

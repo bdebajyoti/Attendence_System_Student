@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity"
+    android:background="@drawable/gradient">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#DC143C"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ImageView"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:src="@drawable/waves"
+        android:layout_gravity="center"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        android:layout_margin="3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="WELCOME :"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#eee"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/MobilNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="....."
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#eee"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
+<TextView
+    android:id="@+id/AdminName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:fontFamily="@font/annie_use_your_telescope"
+    android:gravity="center"
+    android:text="Loading Name..."
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+    android:textColor="#eee"
+    android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="center"
+        android:text="Please Perform The Master Operations Regarding"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#eee"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        >
+    <RadioButton
+        android:id="@+id/Semester"
+        style="@android:style/Widget.Material.CompoundButton.RadioButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:bufferType="spannable"
+        android:gravity="center"
+        android:text="SEMESTER"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#eee" />
+
+    <RadioButton
+        android:id="@+id/Stream"
+        style="@android:style/Widget.Material.CompoundButton.RadioButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="STREAM"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#eee" />
+
+    <RadioButton
+        android:id="@+id/Course"
+        style="@android:style/Widget.Material.CompoundButton.RadioButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="COURSE TYPE"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#eee" />
+
+    <RadioButton
+        android:id="@+id/Subjects"
+        style="@android:style/Animation.Translucent"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="PAPER NAME"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#eee" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#009E3E3E"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/AddDetails"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape"
+            android:layout_weight="45"
+            android:text="ADD MASTER"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+        <Button
+            android:id="@+id/ViewDetails"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_weight="45"
+            android:text="VIEW MASTER"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+        <Button
+            android:id="@+id/ViewRecord"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="45"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:background="@drawable/button_shape"
+            android:text="ATTENDENCE"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#009E3E3E"
+        android:layout_margin="5dp">
+        <Button
+            android:id="@+id/ViewStudents"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape"
+            android:layout_weight="45"
+            android:text="STUDENTS"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+        <Button
+            android:id="@+id/ViewTeachers"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_weight="45"
+            android:text="TEACHERS"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="45"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:background="@drawable/button_shape"
+            android:text="LOGOUT"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/ViewDeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/button_shape"
+        android:text="VIEW DEVELOPER"
+        android:textAllCaps="false"
+        android:textColor="#ffffff" />
+</LinearLayout>

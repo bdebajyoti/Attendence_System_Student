@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CCATT_ADMIN</string>
+    <string-array name="SETSEMESTER">Set Sem/Year
+        <item>SELECT SEMESTER</item>
+        <item>CBCS_1ST_SEM</item>
+        <item>CBCS_2ND_SEM</item>
+        <item>CBCS_3RD_SEM</item>
+        <item>CBCS_4TH_SEM</item>
+        <item>CBCS_5TH_SEM</item>
+        <item>CBCS_6TH_SEM</item>
+    </string-array>
+    <string-array name="SETCOURSE">Set Sem/Year
+        <item>SELECT COURSE TYPE</item>
+        <item>HONOURS</item>
+        <item>GENERAL</item>
+    </string-array>
+    <string-array name="SETSTREAM">Set Sem/Year
+        <item>SELECT STREAM</item>
+        <item>ARTS</item>
+        <item>COMMERCE</item>
+        <item>SCIENCE</item>
+    </string-array>
+</resources>

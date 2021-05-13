@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".College_Info">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Fill The College Basic Information"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#eee"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+<EditText
+    android:id="@+id/CollegeName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:hint="Enter Your College Name?"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textColorHint="#FDFCFC"
+    android:inputType="textCapCharacters"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    />
+    <EditText
+        android:id="@+id/CollegeAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Enter The Address?"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColorHint="#F5F1F1"
+        android:inputType="textCapCharacters"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/ChoosePic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Choose The Logo Of College?"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#eee"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ImageView"
+        android:layout_width="166dp"
+        android:layout_height="166dp"
+        android:src="@drawable/waves"
+        android:layout_gravity="center"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        />
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:layout_margin="15dp"
+        android:text="SAVE AND UPLOAD"
+        android:textColor="#eee"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+</LinearLayout>
